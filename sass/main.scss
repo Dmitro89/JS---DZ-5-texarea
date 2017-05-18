@@ -1,0 +1,34 @@
+.comands{
+	background: silver;
+	font-size: 20px;
+	color: purple;
+	ul>li{
+		padding: 5px;
+	} 
+}
+
+#view,
+#area {
+	word-wrap: break-word;
+	height: 150px;
+	max-width: 400px;
+	width: 100%;
+	font-family: arial;
+	font-size: 14px;
+	background: yellow;
+}
+
+#view {
+	padding: 2px;
+	border: 2px solid #000;
+}
+
+#area {
+	border: 3px groove blue;
+	padding: 0px;
+	display: none;
+}
+
+#area:focus {
+  outline: none;
+}
