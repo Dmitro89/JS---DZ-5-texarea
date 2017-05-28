@@ -1,7 +1,7 @@
 alert("Нажми: Ctrl+E и печатай!")
 
 document.onkeydown = function(e) {
-  if (e.keyCode == 33) { // escape
+  if (e.keyCode == 27) { // escape
     cancel();
     return false;
   }
